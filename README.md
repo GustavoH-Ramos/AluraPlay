@@ -19,12 +19,12 @@
 ![Screenshot da tela do formulário do AluraPlay](https://imgur.com/ShNADf2.png)
 
 
-Rapaz, tive o mesmo problema e faz dois dias que eu leio e releio linha por linha pra achar onde eu errei e nada... A solução do José Rodolfo Kreutzer me salvou aqui.
+##Iniciar o json-server
 
 npm init
 
-"npm uninstall -g json-server" "npm install -g json-server@0.17.0"
+npm install -g json-server@0.17.0
 
 json-server --watch db.json
 
-Eu jamais encontraria essa solução sozinho!
+
